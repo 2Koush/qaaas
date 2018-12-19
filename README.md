@@ -18,7 +18,7 @@ Anyone who is looked for a process for Q&A/FAQ on Webex Teams can use this code 
 
 ### AWS
 QA as a Service is hosted off of AWS Lambda written in Node.js 
-- QAAAS Lambda - [app.js](https://github.com/CiscoCollabTME/qaaas/blob/master/app.js)
+- QAAAS Lambda - [app.js](https://github.com/2Koush/qaaas/blob/master/app.js)
 - QA as a Service listens for all requests in the form of HTTP to achieve this, we have hosted multiple resources on AWS API GW that calls Lambda for appropriate action.
 - For example, a question will contain action=question and setup will contain action=setup, and route to Lambda code accordingly.
 
@@ -27,6 +27,6 @@ One instance of QA as a Service on AWS can support multiple Webex Teams QA Bots.
 Mongo DB stores the bot information, the rules that define qhich questions need to go to the subject matter expert Webex Team Space, and the historical Question and Answers. The **rules collection** maps intents to Webex Teams Subject Matter spaces.
 
 ### Watson
-QAAAS has a Watson template in this code base (QaaaS_Template.json)[https://github.com/2Koush/qaaas/blob/master/QaaaS_Template.json], which defines all the base intents, entitites and dialog to define the NLP logic. Developers will need to add more details to the intents/entities/and dialog to customize their FAQs. 
+QAAAS has a Watson template in this code base [QaaaS_Template.json](https://github.com/2Koush/qaaas/blob/master/QaaaS_Template.json), which defines all the base intents, entitites and dialog to define the NLP logic. Developers will need to add more details to the intents/entities/and dialog to customize their FAQs. 
 
 
