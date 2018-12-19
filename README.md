@@ -27,6 +27,6 @@ One instance of QA as a Service on AWS can support multiple Webex Teams QA Bots.
 Mongo DB stores the bot information, the rules that define qhich questions need to go to the subject matter expert Webex Team Space, and the historical Question and Answers. The **rules collection** maps intents to Webex Teams Subject Matter spaces.
 
 ### Watson
-QAAAS has a Watson template in this code base (QaaaS_Template.json)[], which defines all the base intents, entitites and dialog to define the NLP logic. Developers will need to add more details to the intents/entities/and dialog to customize their FAQs. 
+QAAAS has a Watson template in this code base (QaaaS_Template.json)[https://github.com/2Koush/qaaas/blob/master/QaaaS_Template.json], which defines all the base intents, entitites and dialog to define the NLP logic. Developers will need to add more details to the intents/entities/and dialog to customize their FAQs. 
 
 
